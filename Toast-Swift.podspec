@@ -10,5 +10,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Toast'   
   s.framework    = 'QuartzCore'
   s.requires_arc = true
+  s.swift_version = '4.1'
   s.ios.deployment_target = '8.0'
 end
